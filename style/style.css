@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+ body {
+     background-image:url(../img/background\ img.png) ; 
+    background-repeat: no-repeat; 
+} 
+nav {
+    width: 100%;
+    height: 200px;
+    padding-top: 30px;
+}
+ul {
+    width: 590px;
+   margin: 50px 678px;
+    display: flex; 
+   justify-content: space-between;
+}
+
+.a a {
+    background-color: #c4c4c4;
+    color: black;
+    border-radius: 0px 35px 0px 35px;
+    padding-left:18px ;
+    padding-top: 23px;
+    padding-right:26px ;
+    padding-bottom: 23px;
+}
+.a a:hover{
+    background-color: #79b331;
+    color: aliceblue;
+    border-radius: 0px 35px 0px 35px;
+    padding-left:18px ;
+    padding-top: 23px;
+    padding-right:26px ;
+    padding-bottom: 23px;
+}
+.b a {
+    background-color: #c4c4c4;
+    color: black;
+    border-radius: 0px 35px 0px 35px;
+    padding-left:18px ;
+    padding-top: 23px;
+    padding-right:26px ;
+    padding-bottom: 23px
+}
+.b a:hover {
+    background-color:#79b331;
+   color: aliceblue;
+    border-radius: 0px 35px 0px 35px;
+    padding-left:18px ;
+    padding-top: 23px;
+    padding-right:26px ;
+    padding-bottom: 23px
+}
+.c a {
+    background-color: #c4c4c4;
+    color: black;
+    border-radius: 0px 35px 0px 35px;
+    padding-left:18px ;
+    padding-top: 23px;
+    padding-right:26px ;
+    padding-bottom: 23px
+}
+.c a:hover {
+    background-color: #79b331;
+    color: aliceblue;
+    border-radius: 0px 35px 0px 35px;
+    padding-left:18px ;
+    padding-top: 23px;
+    padding-right:26px ;
+    padding-bottom: 23px
+}
+.timebox {
+    width: 400px;
+    height: 230px;
+    margin:138px 818px ; 
+}
+.ball {
+    background-color: #79b331;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    animation: movingball 3s infinite  ; 
+}
+@keyframes movingball {
+    0%{top: 0px; left: 0px; }
+    25%{top: 0px; left: 370px;}
+    50%{top: 200px; left: 370px;}
+    75%{top: 200px; left: 0px;}
+    100%{top: 0px; left: 0px; }
+}
+.text {
+    margin:36px 39px ;
+    font-size: 18px;
+}
+.time{
+    margin: 26px 86px;
+    font-size: 36px;
+}
+.conteiner{
+    display: flex;
+}
+.leaf-1 {
+    background-color: #c4c4c4;
+    width:70px ;
+    height: 70px;
+    border-radius: 0px 35px 0px 35px;
+}
+.leaf-2 {
+    background-color: #c4c4c4;
+    width:70px ;
+    height: 70px;
+    border-radius: 0px 35px 0px 35px;
+    transform:rotateY(180deg);
+}
+.box-4 {
+    display: none;
+}
+.box-1 {
+    width: 600px;
+    height: 74px;
+    margin-left: 200px;
+    cursor: pointer;
+    display: flex;
+}
+.box-1 p:hover{
+    color: #79b331;
+}
+.box-1:hover .leaf-1{
+    background-color:#79b331;
+    width:70px ;
+    height: 70px;
+    border-radius: 0px 35px 0px 35px;
+}
+.box-2 {
+    width: 500px;
+    height: 74px;
+    margin-left: 799px; 
+    margin-top: 30px;
+    cursor: pointer;
+    display: flex; 
+}
+.box-2 p:hover{
+    color: #79b331;
+}
+.box-2:hover .leaf-2{
+    background-color:#79b331;
+    width:70px ;
+    height: 70px;
+    border-radius: 0px 35px 0px 35px;
+}
+.line{
+    background-color: #c4c4c4;
+    height: 430px;
+    width: 2px;
+    margin-left: -500px;
+}
+.box-3{
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    ul {
+        width: 590px;
+       margin: 50px 400px;
+       display: flex;  
+       justify-content: space-between;
+    }
+    .timebox {
+        width: 400px;
+        height: 230px;
+        margin:138px 600px ; 
+    }
+    .box-2 {
+        display: none;
+    }
+    .box-3 {
+        width: 600px;
+        height: 74px;
+        margin-left: 200px;
+        cursor: pointer;
+        display: flex;
+    }
+    .leaf-3 {
+        background-color: #c4c4c4;
+        width:70px ;
+        height: 70px;
+        border-radius: 0px 35px 0px 35px;
+    }
+    .line{
+        background-color: #c4c4c4;
+        height: 400px;
+        width: 2px;
+         margin-left: 1px;  
+    }
+    
+
+}
+
+@media only screen and (max-width: 414px) {
+    .nav {
+        width: 41px;
+         margin-left: 100px; 
+    }
+    .nav div {
+        background-color: #c4c4c4;
+        width:41px ;
+        height: 2px;
+        margin-top: 10px ;
+        margin-left: 600px;
+        display: block;
+    }
+
+    nav {
+        width: 900px;
+        height: 106px;
+        padding-top: 30px;
+        overflow: hidden;
+    }
+    nav:hover {
+        width: 900px;
+        height: 328px;
+        padding-top: 30px;
+        overflow: visible;
+    }
+    ul { 
+       width: 590px;
+       margin: 20px auto; 
+       justify-content: space-between;
+       flex-wrap: wrap;
+       
+    }
+    ul li {
+        margin-top: 50px;
+    }
+   .a a {
+    background-color: #c4c4c4;
+    color: black;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 0 0 0 0;
+   }
+   .a a:hover {
+    background-color:#79b331;
+    color: #c4c4c4;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 0 35px 0 35px;
+   }
+   .b a {
+    background-color: #c4c4c4;
+    color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 0 0 0 0;
+   }
+   .b a:hover {
+    background-color:#79b331;
+    color: #c4c4c4;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 0 35px 0 35px;
+   }
+   .c a {
+    background-color: #c4c4c4;
+    color: black;
+    padding-left: 200px;
+    padding-right: 230px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 0 0 0 0;
+   }
+  
+   .c a:hover {
+    background-color: #79b331;
+    color: #c4c4c4;
+    padding-left: 200px;
+    padding-right: 230px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 0 35px 0 35px;
+   }
+   .timebox {
+    width: 400px;
+    height: 230px;
+    margin:138px 300px ; 
+}
+.box-1{
+    display: none;
+}
+.box-3{
+    display: none;
+}
+.box-4 {
+    width: 600px;
+    height: 74px;
+    margin-left: 200px;
+    cursor: pointer;
+    display:block;
+    
+}
+.leaf-4 {
+    background-color: #c4c4c4;
+    width:70px ;
+    height: 70px;
+    border-radius: 0px 35px 0px 35px;
+    margin-top: 60px;
+    margin-left: 250px;
+}
+.box-4 p {
+    margin-top: 24px;
+}
+.box-4 p:hover{
+    color: #79b331;
+}
+.box-4:hover .leaf-4{
+    background-color:#79b331;
+    width:70px ;
+    height: 70px;
+    border-radius: 0px 35px 0px 35px;
+}
+   
+}
