@@ -248,8 +248,41 @@ h3 {
     height: 70px;
 }
 
- 
+ /*.......................... shop.......................... */
 
+ 
+.produqtbox {
+    width: 640px;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    display: flex;
+    margin: 220px 630px;
+}
+.produqtbox div {
+    background-color: #c4c4c4;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+.produqt-1 {
+background-image: url(../img/biodegradable\ \(1\)\ 1.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+.bio{
+    color: #c4c4c4;
+    margin: 134px 50px;
+    font-size: 17px;
+}
+.produqt-1:hover{
+ background-color: #79b331;
+ background-image: url(../img/biodegradable\ \(1\)\ 1.png);
+background-repeat: no-repeat;
+background-position-y: 40px;
+}
+.produqt-1:hover .bio{
+    color: #fffdfd;
+}
 
 
 
