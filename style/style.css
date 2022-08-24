@@ -164,19 +164,107 @@ ul {
 .box-3{
     display: none;
 }
+/* ...................soping................... */
+main h2 {
+    width: 340px;
+    color: #252525;
+    margin: 90px 732px ;
+}
+.shopbox{
+    width: 420px;
+    margin:48px 732px ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+.shop {
+    background-color: #c4c4c4;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px; 
+    background-image: url(../img/kalata.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+.shop p {
+     color: #c4c4c4;
+    font-size: 12px; 
+   margin-top: 144px;
+   margin-left: 64px;
+}
+.local{
+    width: 18px;
+    height: 18px;
+   background-image: url(../img/local.png);
+   background-repeat: no-repeat;
+   margin: 10px auto ;
+   visibility: hidden;
+}
+.shop:hover {
+    background-color:#79b331;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px; 
+    background-image: url(../img/kalata.png);
+    background-repeat: no-repeat; 
+    background-position-y:40px ;
+    cursor: pointer;
+}
+.shop:hover .local {
+    width: 18px;
+    height: 18px;
+   background-image: url(../img/local.png);
+   background-repeat: no-repeat;
+   margin: 10px auto ;
+   visibility:visible;
+}
+h3 {
+    font-size: 24px;
+    width: 420px;
+    margin: 58px 732px;
+}
+.laptop {
+    background-color: #d9d9d9; 
+    width: 420px;
+    height: 70px;
+    background-image: url(../img/laptop\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 23px 732px;
+}
+.laptop:hover {
+    background-color:#79b331; 
+    width: 420px;
+    height: 70px;
+    background-image: url(../img/laptop\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin: 23px 732px;
+}
+.laptop a {
+    display: block;
+    width: 420px;
+    height: 70px;
+}
+
+ 
+
+
+
 
 @media only screen and (max-width: 1024px) {
 
     ul {
         width: 590px;
-       margin: 50px 400px;
+       margin: 50px 250px;
        display: flex;  
        justify-content: space-between;
     }
     .timebox {
         width: 400px;
         height: 230px;
-        margin:138px 600px ; 
+        margin:100px 470px ; 
     }
     .box-2 {
         display: none;
@@ -199,6 +287,25 @@ ul {
         height: 400px;
         width: 2px;
          margin-left: 1px;  
+    }   
+    main h2 {
+        margin: 90px 450px ;
+    }
+    .shopbox {
+        margin:48px 450px ;
+    }
+    h3 {
+        margin: 58px 350px;
+    }
+    .laptop {
+        background-color: #d9d9d9; 
+        width: 865px;
+        margin: 23px 108px;
+    }
+    .laptop:hover {
+        background-color:#79b331; 
+        width: 765px;
+        margin: 23px 50px;
     }
     
 
@@ -241,7 +348,8 @@ ul {
         margin-top: 50px;
     }
    .a a {
-    background-color: #c4c4c4;
+    background-color:#ffffff ;
+    border-bottom: 1px solid black;
     color: black;
     padding-left: 150px;
     padding-right: 150px;
@@ -259,7 +367,8 @@ ul {
     border-radius: 0 35px 0 35px;
    }
    .b a {
-    background-color: #c4c4c4;
+    background-color:#ffffff ;
+    border-bottom: 1px solid black;
     color: black;
     padding-left: 200px;
     padding-right: 200px;
@@ -277,7 +386,8 @@ ul {
     border-radius: 0 35px 0 35px;
    }
    .c a {
-    background-color: #c4c4c4;
+    background-color:#ffffff ;
+    border-bottom: 1px solid black;
     color: black;
     padding-left: 200px;
     padding-right: 230px;
@@ -333,6 +443,34 @@ ul {
     width:70px ;
     height: 70px;
     border-radius: 0px 35px 0px 35px;
+}
+main h2 {
+    margin: 90px 250px;
+}
+.shopbox {
+    width: 230px;
+    margin:48px 250px ;
+}
+.shop {
+    width: 230px;
+    height: 230px;
+} 
+.shop:hover {
+    width: 230px;
+    height: 230px;
+}
+h3 {
+    margin: 58px 200px;
+}
+.laptop {
+    background-color: #d9d9d9; 
+    width: 358px;
+    margin: 23px 200px;
+}
+.laptop:hover {
+    background-color:#79b331; 
+    width: 358px;
+    margin: 23px 200px;
 }
    
 }
