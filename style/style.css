@@ -6,9 +6,11 @@
     box-sizing: border-box;
 }
  body {
+    background-color: ;
      background-image:url(../img/background\ img.png) ; 
     background-repeat: no-repeat; 
-    background-size: 100%;
+     background-size: 100%; 
+    background-position: center;
 } 
 nav {
     width: 100%;
@@ -281,8 +283,63 @@ background-position: center;
 background-repeat: no-repeat;
 background-position-y: 40px;
 }
-.produqt-1:hover .bio{
+.produqtbox div:hover .bio{
     color: #fffdfd;
+}
+.produqt-2 {
+    background-image: url(../img/detox\ 1\ bleck.png);
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+.produqt-2:hover {
+        background-color: #79b331;
+        background-image: url(../img/detox\ \(1\)\ 1.png);
+       background-repeat: no-repeat;
+       background-position-y: 40px; 
+}
+.produqt-3 {
+    background-image: url(../img/keto\ 1\ bleck.png);
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+.produqt-3:hover {
+        background-color: #79b331;
+        background-image: url(../img/keto\ \(1\)\ 1.png);
+       background-repeat: no-repeat;
+       background-position-y: 40px; 
+}
+.produqt-4 {
+    background-image: url(../img/cereal\ 1bleck.png);
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+.produqt-4:hover {
+        background-color: #79b331;
+        background-image: url(../img/cereal\ \(1\)\ 1.png);
+       background-repeat: no-repeat;
+       background-position-y: 40px; 
+}
+.produqt-5 {
+    background-image: url(../img/salad\ 1black.png);
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+.produqt-5:hover {
+        background-color: #79b331;
+        background-image: url(../img/salad\ \(1\)\ 1.png);
+       background-repeat: no-repeat;
+       background-position-y: 40px; 
+}
+.produqt-6{
+    background-image: url(../img/black.png);
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+.produqt-6:hover {
+        background-color: #79b331;
+        background-image: url(../img/vitamin\ \(1\)\ 1.png);
+       background-repeat: no-repeat;
+       background-position-y: 40px; 
 }
 
 
@@ -340,6 +397,13 @@ background-position-y: 40px;
         background-color:#79b331; 
         width: 765px;
         margin: 23px 50px;
+    }
+    .produqtbox {
+        width: 420px;
+        justify-content: space-between;
+        flex-wrap: wrap; 
+        display: flex;
+        margin: 220px 430px;
     }
     
 
@@ -505,6 +569,13 @@ h3 {
     background-color:#79b331; 
     width: 358px;
     margin: 23px 200px;
+}
+.produqtbox {
+    width: 200px;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    display: flex;
+    margin: 220px 430px;
 }
    
 }
