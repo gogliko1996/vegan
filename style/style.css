@@ -529,7 +529,7 @@ background-position-y: 40px;
         width: 633px;
         margin: 32px  28%;
         display: flex;
-        justify-content: space-around;
+        /* justify-content: space-around; */
         flex-wrap: wrap;
     }
     .textbox-1 p {
